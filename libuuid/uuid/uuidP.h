@@ -35,7 +35,7 @@
 #include <inttypes.h>
 #include <sys/types.h>
 
-#include "uuid.h"
+#include "uuid/uuid.h"
 
 #define LIBUUID_CLOCK_FILE	"/var/lib/libuuid/clock.txt"
 

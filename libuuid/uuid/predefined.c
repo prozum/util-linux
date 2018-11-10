@@ -33,7 +33,7 @@
  */
 
 #include <string.h>
-#include "uuid.h"
+#include "uuid/uuid.h"
 
 /*
  * These are time-based UUIDs that are well-known in that they've

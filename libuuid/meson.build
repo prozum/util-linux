@@ -1,6 +1,6 @@
-subdir('src')
+subdir('uuid')
 
-libuuid_inc = include_directories('src')
+libuuid_inc = include_directories('.')
 
 libuuid = library('libuuid',
                   libuuid_srcs,
@@ -8,3 +8,5 @@ libuuid = library('libuuid',
                   link_with: lib
 )
 
+
+libuuid_dep = declare_dependency(link_with: libuuid, include_directories: libuuid_inc)

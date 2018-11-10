@@ -1,4 +1,3 @@
-
 libuuid_srcs = files(
 	'uuidP.h',
 	'clear.c',
